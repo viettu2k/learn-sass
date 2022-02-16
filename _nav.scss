@@ -1,12 +1,12 @@
-nav {
+.nav {
     background: #333;
     height: 70px;
     width: 100%;
-    ul {
+    &__ul {
         list-style: none;
-        li {
+        &__li {
             display: block;
-            a {
+            &__a {
                 text-decoration: none;
                 color: #fff;
             }

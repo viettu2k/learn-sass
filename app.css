@@ -12,18 +12,18 @@ footer {
   background: blue;
 }
 
-nav {
+.nav {
   background: #333;
   height: 70px;
   width: 100%;
 }
-nav ul {
+.nav__ul {
   list-style: none;
 }
-nav ul li {
+.nav__ul__li {
   display: block;
 }
-nav ul li a {
+.nav__ul__li__a {
   text-decoration: none;
   color: #fff;
 }
