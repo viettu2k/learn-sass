@@ -1,6 +1,16 @@
 @use "variables" as *;
-header {
-    background: $headerColor;
-    font-size: $headerFontSize;
-    color: $headerFontColor;
+@use "extends" as *;
+.btn-success {
+    @extend %buttons;
+    background: green;
+}
+
+.btn-danger {
+    @extend %buttons;
+    background: red;
+}
+
+.btn-warning {
+    @extend %buttons;
+    background: yellow;
 }
