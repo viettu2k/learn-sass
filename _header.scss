@@ -1,4 +1,6 @@
+@use "variables" as *;
 header {
-    background: orange;
-    color: red;
+    background: $headerColor;
+    font-size: $headerFontSize;
+    color: $headerFontColor;
 }
