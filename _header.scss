@@ -1,16 +1,13 @@
 @use "variables" as *;
-@use "extends" as *;
+@use "mixins" as *;
 .btn-success {
-    @extend %buttons;
-    background: green;
+    @include button(green);
 }
 
 .btn-danger {
-    @extend %buttons;
-    background: red;
+    @include button(red);
 }
 
 .btn-warning {
-    @extend %buttons;
-    background: yellow;
+    @include button(orange);
 }
