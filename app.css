@@ -1,4 +1,12 @@
-body {
-  color: green;
-  font-size: 18px;
+header {
+  background: orange;
+  color: red;
+}
+
+section {
+  background: red;
+}
+
+footer {
+  background: blue;
 }

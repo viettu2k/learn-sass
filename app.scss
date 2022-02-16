@@ -1,6 +1,3 @@
-$color: green;
-$fontSize: 18px;
-body {
-    color: $color;
-    font-size: $fontSize;
-}
+@use "header";
+@use "articles";
+@use "footer";
